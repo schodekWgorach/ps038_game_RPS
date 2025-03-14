@@ -4,6 +4,7 @@ body {
     justify-content: flex-start; /* Wyrównuje elementy do góry */
     align-items: center;
     height: 100vh; /* Pełna wysokość widoku */
+    margin-top: 200px;
     margin: 0; /* Usuwa domyślne marginesy */
     background-color: #f0f0f0; /* Jasne tło */
 }
@@ -44,7 +45,7 @@ body {
 
 .container {
     display: flex;
-    flex-direction: column; /* Ustawia przyciski w rzędzie */
+    flex-direction: column; 
     align-items: center;
     justify-content: center;
     margin-top: 20px;
