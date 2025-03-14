@@ -58,3 +58,16 @@ body {
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), 0 0 20px #FF4500, 0 0 30px #FF4500;
     }
 }
+
+.result {
+    font-family: 'Arial', sans-serif; /* Ustawienie czcionki */
+    font-size: 24px; /* Rozmiar tekstu */
+    color: #333; /* Kolor tekstu */
+    text-align: center; /* Wyśrodkowanie tekstu */
+    margin-top: 20px; /* Odstęp od góry */
+    padding: 10px; /* Wewnętrzne odstępy */
+    border: 2px solid #4CAF50; /* Zielona ramka */
+    border-radius: 10px; /* Zaokrąglone rogi */
+    background-color: #f9f9f9; /* Jasne tło */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtelny cień */
+}
