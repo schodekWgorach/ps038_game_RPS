@@ -35,15 +35,15 @@ function generateComputerChoice() {
 function determineWinner() {
   let result = "";
   if (playerChoice === computerChoice) {
-    result = "Remis! Spróbuj jeszcze raz.";
+    result = "Remis! try again";
   } else if (
     (playerChoice === 1 && computerChoice === 3) || // Rock beats Scissors
     (playerChoice === 2 && computerChoice === 1) || // Paper beats Rock
     (playerChoice === 3 && computerChoice === 2)    // Scissors beats Paper
   ) {
-    result = "Wygrana! Gratulacje!";
+    result = "Win Win Win";
   } else {
-    result = "Przegrana! Powodzenia następnym razem.";
+    result = "defeat, ups";
   }
 
   // Wyświetlanie wyniku w sekcji result
@@ -52,7 +52,7 @@ function determineWinner() {
   // Restartowanie gry
   playerChoice = null;
   computerChoice = null;
-  console.log("Gra została zresetowana.");
+  console.log("game reset.");
 }
 
 // Dodawanie obsługi kliknięć do przycisków
