@@ -1,30 +1,40 @@
+/* Wyśrodkowanie całej zawartości strony */
 body {
     display: flex;
     flex-direction: column; /* Ustawia elementy w kolumnie */
-    justify-content: flex-start; /* Wyrównuje elementy do góry */
-    align-items: center;
+    justify-content: center; /* Wyśrodkowanie w pionie */
+    align-items: center; /* Wyśrodkowanie w poziomie */
     height: 100vh; /* Pełna wysokość widoku */
-    margin-top: 200px;
     margin: 0; /* Usuwa domyślne marginesy */
     background-color: #f0f0f0; /* Jasne tło */
 }
 
+/* Stylizacja sekcji z przyciskami */
+.game {
+    display: flex;
+    justify-content: center; /* Wyśrodkowanie przycisków w poziomie */
+    gap: 20px; /* Odstęp między przyciskami */
+    margin-top: 20px; /* Odstęp od góry */
+}
+
+/* Stylizacja przycisków */
 .round-button {
-    background-color: #4CAF50; /* Green color */
+    background-color: #4CAF50; /* Zielony kolor */
     color: white;
     border: none;
-    border-radius: 50%; /* Makes the button round */
-    width: 60px; /* Equal width and height for a perfect circle */
+    border-radius: 50%; /* Okrągły kształt */
+    width: 60px;
     height: 60px;
     font-size: 16px;
     cursor: pointer;
-    text-align: center;
-    display: inline-block; /* Allows spacing between buttons */
-    margin: 10px; /* Adds spacing between buttons */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
 }
 
 .round-button:hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: #45a049; /* Ciemniejszy zielony po najechaniu */
 }
 
 .round-button i {
@@ -60,15 +70,16 @@ body {
     }
 }
 
+/* Stylizacja sekcji wyniku */
 .result {
-    font-family: 'Arial', sans-serif; /* Ustawienie czcionki */
-    font-size: 24px; /* Rozmiar tekstu */
-    color: #333; /* Kolor tekstu */
-    text-align: center; /* Wyśrodkowanie tekstu */
-    margin-top: 20px; /* Odstęp od góry */
-    padding: 10px; /* Wewnętrzne odstępy */
-    border: 2px solid #4CAF50; /* Zielona ramka */
-    border-radius: 10px; /* Zaokrąglone rogi */
-    background-color: #f9f9f9; /* Jasne tło */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtelny cień */
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
