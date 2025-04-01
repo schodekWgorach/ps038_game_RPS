@@ -34,6 +34,6 @@ To jest prosta gra przeglądarkowa "Kamień, Papier, Nożyce", zrealizowana przy
 
 ## Jak uruchomić projekt
 1. Sklonuj repozytorium:
-   ```bash
-   git clone https://github.com/your-username/rock-paper-scissors.git```
+   bash
+   git clone https://github.com/your-username/rock-paper-scissors.git
 
