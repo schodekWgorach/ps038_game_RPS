@@ -25,15 +25,15 @@ To jest prosta gra przeglądarkowa "Kamień, Papier, Nożyce", zrealizowana przy
 
 ## Struktura projektu
 
-root/ 
+```root/ 
       │ 
       ├── index.html # Główna strona projektu 
       ├── styles.css # Stylizacja interfejsu 
       ├── script.js # Logika gry 
-      └── README.md # Dokumentacja projektu
+      └── README.md # Dokumentacja projektu```
 
 ## Jak uruchomić projekt
 1. Sklonuj repozytorium:
    ```bash
-   git clone https://github.com/your-username/rock-paper-scissors.git
+   git clone https://github.com/your-username/rock-paper-scissors.git```
 
