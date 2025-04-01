@@ -24,8 +24,8 @@ To jest prosta gra przeglądarkowa "Kamień, Papier, Nożyce", zrealizowana przy
 - **JavaScript**: Logika gry i interakcje użytkownika z przeglądarką.
 
 ## Struktura projektu
-
-```root/ 
+```
+root/ 
       │ 
       ├── index.html # Główna strona projektu 
       ├── styles.css # Stylizacja interfejsu 
